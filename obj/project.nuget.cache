@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "aRrp7VoHKkA=",
-  "success": true,
+  "dgSpecHash": "M2TxNyVhM80=",
+  "success": false,
   "projectFilePath": "C:\\Users\\DeLL\\source\\repos\\EcommerceWebsite_microservices\\PanierService\\PanierService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
@@ -22,5 +22,15 @@
     "C:\\Users\\DeLL\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
     "C:\\Users\\DeLL\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Projet 'C:\\SharedDTO\\SharedDTO.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
+      "libraryId": "C:\\SharedDTO\\SharedDTO.csproj",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

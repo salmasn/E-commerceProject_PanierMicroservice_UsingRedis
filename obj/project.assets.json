@@ -282,16 +282,6 @@
             "related": ".xml"
           }
         }
-      },
-      "SharedDTO/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/SharedDTO.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharedDTO.dll": {}
-        }
       }
     }
   },
@@ -979,18 +969,13 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "SharedDTO/1.0.0": {
-      "type": "project",
-      "path": "../SharedDTO/SharedDTO.csproj",
-      "msbuildProject": "../SharedDTO/SharedDTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "C:\\SharedDTO\\SharedDTO.csproj",
       "Microsoft.AspNetCore.OpenApi >= 9.0.1",
       "Microsoft.Extensions.Caching.StackExchangeRedis >= 10.0.0",
-      "SharedDTO >= 1.0.0",
       "StackExchange.Redis >= 2.9.32",
       "Swashbuckle.AspNetCore >= 9.0.6"
     ]
@@ -1027,8 +1012,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\DeLL\\source\\repos\\EcommerceWebsite_microservices\\SharedDTO\\SharedDTO.csproj": {
-              "projectPath": "C:\\Users\\DeLL\\source\\repos\\EcommerceWebsite_microservices\\SharedDTO\\SharedDTO.csproj"
+            "C:\\SharedDTO\\SharedDTO.csproj": {
+              "projectPath": "C:\\SharedDTO\\SharedDTO.csproj"
             }
           }
         }
@@ -1088,5 +1073,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Projet 'C:\\SharedDTO\\SharedDTO.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
+      "libraryId": "C:\\SharedDTO\\SharedDTO.csproj",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }
