@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "M2TxNyVhM80=",
+  "dgSpecHash": "slIkQGxjgFM=",
   "success": false,
   "projectFilePath": "C:\\Users\\DeLL\\source\\repos\\EcommerceWebsite_microservices\\PanierService\\PanierService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
-    "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
+    "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
     "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.0\\microsoft.extensions.caching.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\10.0.0\\microsoft.extensions.caching.stackexchangeredis.10.0.0.nupkg.sha512",
     "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
@@ -29,7 +29,7 @@
       "message": "Projet 'C:\\SharedDTO\\SharedDTO.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
       "libraryId": "C:\\SharedDTO\\SharedDTO.csproj",
       "targetGraphs": [
-        "net9.0"
+        "net8.0"
       ]
     }
   ]
