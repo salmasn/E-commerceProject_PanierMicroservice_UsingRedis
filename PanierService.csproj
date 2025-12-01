@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="SharedDTO\SharedDTO.csproj" />
+    <ProjectReference Include="SharedDTO/SharedDTO.csproj" />
   </ItemGroup>
 
 </Project>
