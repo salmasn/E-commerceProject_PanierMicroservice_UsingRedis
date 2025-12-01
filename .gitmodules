@@ -1,0 +1,3 @@
+[submodule "SharedDTO"]
+	path = SharedDTO
+	url = https://github.com/salmasn/E-commerceProject_SharedDTO
