@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "slIkQGxjgFM=",
+  "dgSpecHash": "fVByn8F1cKo=",
   "success": false,
   "projectFilePath": "C:\\Users\\DeLL\\source\\repos\\EcommerceWebsite_microservices\\PanierService\\PanierService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
-    "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
+    "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
     "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.0\\microsoft.extensions.caching.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\10.0.0\\microsoft.extensions.caching.stackexchangeredis.10.0.0.nupkg.sha512",
     "C:\\Users\\DeLL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
@@ -24,12 +24,12 @@
   ],
   "logs": [
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Projet 'C:\\SharedDTO\\SharedDTO.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
-      "libraryId": "C:\\SharedDTO\\SharedDTO.csproj",
+      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\DeLL\\source\\repos\\EcommerceWebsite_microservices\\PanierService\\SharedDTO\\SharedDTO.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
+      "libraryId": "C:\\Users\\DeLL\\source\\repos\\EcommerceWebsite_microservices\\PanierService\\SharedDTO\\SharedDTO.csproj",
       "targetGraphs": [
-        "net8.0"
+        "net9.0"
       ]
     }
   ]
